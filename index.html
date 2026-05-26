@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Login Page - PhantomWall</title>
+    <link rel="shortcut icon" href="website-logo.webp" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Press+Start+2P&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <audio hidden autoplay loop muted>
+      <source
+        src="On The Flip - The Grey Room _ Density & Time.mp3"
+        type="audio/mp3"
+      />
+    </audio>
+    <div class="box"></div>
+    <p id="register-information" onclick="RegisterVerified()">
+      <a href="http://127.0.0.1:5500/index.html" target="_blank"
+        ><span style="color: white; text-decoration-color: white"
+          >Don't have an account?</span
+        >
+        <span
+          style="color: white; text-decoration-color: white; font-weight: 800"
+          >Register</span
+        ></a
+      >
+    </p>
+    <p id="sign_up-information">Or Sign Up Using</p>
+    <div id="google-button" onclick="SocialVerifiedGoogle()">
+      <a href="https://www.google.com" target="_blank">
+        <img src="google.png" width="85" height="85" />
+      </a>
+    </div>
+    <div id="facebook-button" onclick="SocialVerifiedFacebook()">
+      <a href="https://www.facebook.com" target="_blank">
+        <img src="facebook.png" width="95" height="95" />
+      </a>
+    </div>
+    <div id="apple-button" onclick="SocialVerifiedApple()">
+      <a href="https://www.apple.com" target="_blank">
+        <img src="apple.png" width="90" height="90" />
+      </a>
+    </div>
+    <button id="login-button" onclick="LoginVerifiedFacebook()">Login</button>
+    <p id="title">Login</p>
+    <div id="logo">
+      <img src="logo.png" width="350" height="350" />
+    </div>
+    <form id="login-credentials">
+      <span id="heading-username">Username:</span>
+      <input
+        type="text"
+        name="user_id"
+        placeholder="Enter your username: "
+        id="user-input"
+      />
+      <span id="heading-password">Password:</span>
+      <input
+        type="text"
+        name="password"
+        placeholder="Enter your password: "
+        id="pass-input"
+      />
+    </form>
+    <div id="background"></div>
+  </body>
+</html>
