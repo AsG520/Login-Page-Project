@@ -2,7 +2,7 @@
 
 Visual of Design
 <br>
-<img width="330" height="391" alt="Image" src="https://github.com/user-attachments/assets/faa14130-05e4-48c4-a8c7-ca0d93448dcb" />
+<img width="813" height="830" alt="Image" src="https://github.com/user-attachments/assets/faa14130-05e4-48c4-a8c7-ca0d93448dcb" />
 
 Features in Design
 
