@@ -5,6 +5,11 @@ Visual of Design
 <img width="513" height="530" alt="Image" src="https://github.com/user-attachments/assets/faa14130-05e4-48c4-a8c7-ca0d93448dcb" />
 
 Features in Design
+- Displays modern theme across page with black, grey, and white colors.
+- Models a basic login page of potential online website.
+- Embedded different sign up options (e.g. Google, Apple, and Facebook) with smoke surrounding. 
+- Includes cloud smoke username field, password field, and login button.
+- Enhances a fake logo of the company at top of page.
 
 How it Works
 
