@@ -1,5 +1,12 @@
 # Login Page Project
 
+## Table of Contents
+- Visual of Design
+- Features in Design
+- How it Works
+- Requirements
+- How to Run
+
 ## Visual of Design
 <img width="513" height="530" alt="Image" src="https://github.com/user-attachments/assets/faa14130-05e4-48c4-a8c7-ca0d93448dcb" />
 
